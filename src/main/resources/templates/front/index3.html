@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>7-2 page with popups</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+
+
+	<a href="#select-authorization" class="popup">button authorization</a>
+
+	<a href="index.html">Link on main-page</a>
+
+	
+
+	<div id="select-authorization" class="wrap-pop-lay wrap-pop-lay-pink authorization">
+		<div class="wrap-pop">
+			<form>
+				<div class="logo-row">
+					<div class="translate">Additional authorization</div>
+				</div>
+
+				<div class="descr-form">
+					<p>Securuty verification. Select one option:</p>
+				</div>	
+
+				<div class="lf_line">
+					
+            	</div>
+            	<div class="lf_line">
+					<label>
+						<div class="wrap-label">
+							<input name="select" type="radio">
+						
+							<span>GA key</span>
+							<a href="#" class="link">Instruction here!</a>
+						</div>
+						
+					</label>
+            	</div>
+            	<div class="lf_line">
+				
+            	</div>
+            	<div class="button-block">
+            		<button class="button darkorange">Cancel</button>
+            		<a href="#input-authorization" class="button green popup">Next</a>
+            	</div>
+            	
+			</form>
+		</div>
+	</div>
+
+
+	<div id="input-authorization" class="wrap-pop-lay wrap-pop-lay-pink authorization">
+		<div class="wrap-pop">
+			<form>
+				<div class="logo-row">
+					<div class="translate">Additional authorization</div>
+				</div>
+				
+				<div class="descr-form">
+					<p>Login by GA code</p>
+				</div>	
+
+                <div class="lf_line">
+                    <label class="translate">
+                    	<span>Enter GA code:</span>
+	                    <input name="GA code" type="text" class="input_text">
+                	</label>
+                </div>
+
+                
+                		
+                <div class="button-block">
+            		<a href="#" class="button darkorange">Back</a>
+            		<a href="#" class="button green">LOGIN</a>
+            	</div>	
+                	
+                </div>
+			</form>
+			
+		</div>
+	</div>
+	
+
+	</div>
+	
+	
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+	<!-- <script src="js/commonm.js"></script> -->
+	<script src="js/common.js"></script>
+
+</body>
+</html>
